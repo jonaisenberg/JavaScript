@@ -1,0 +1,74 @@
+.content {
+    display: flex;
+}
+
+.card {
+    background-color: rgba(79, 145, 25, 0.808);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.image {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.title {
+    font-family: system-ui;
+    margin-top: -5px;
+    color: white;
+}
+
+input {
+    padding-left: 5px;
+    border-radius: 6px;
+    margin: 5px;
+    width: 150px;
+    height: 18px;
+    border: none;
+}
+
+p {
+    font-family: Calibri;
+    margin-left: -29px;
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.calculate {
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+}
+
+.coloreando {
+    margin-left: 5px;
+    border: 2px solid black;
+    width: 23px;
+    border-radius: 26px;
+}

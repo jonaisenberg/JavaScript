@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>JavaScript</title>
+</head>
+<body>  
+    <div class="content">
+        <main class="card">
+            <img src="./assets/img/laptop1.webp" class="image" alt="Imagen-de-una-laptop">
+            <h3 class="title">Laptop Gamer AMD</h3>
+            <input id="cantidad" type="number" placeholder="CANTIDAD">
+            <input id="color" type="text" placeholder="COLOR">
+            <p>Precio: $400.000.-</p>
+            <button onclick="calcular()" class="calculate">Calcular Total</button>
+        </main>
+        <aside class="result">
+            <h2>total: <span class="precioTotal"></span></h2>
+            <h2>cantidad:<span class="cantidadTotal"></span></h2>
+            <div class="item">
+                <h2>color:</h2>
+                <div class="coloreando" id="coloreando"></div>
+            </div>
+        </aside>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
