@@ -10,3 +10,5 @@ function calcular() {
     let coloreado = document.querySelector("#coloreando");
     coloreado.style.backgroundColor = color;
 }
+
+//trabaje con Victor Vilche y con Carla cayupan
